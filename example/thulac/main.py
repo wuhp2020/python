@@ -1,0 +1,6 @@
+'''
+ @ Libs   : python3.9 -m pip install thulac -i https://mirrors.aliyun.com/pypi/simple
+ @ Author : wuheping
+ @ Date   : 2022/1/28
+ @ Desc   : 清华大学自然语言处理与社会人文计算实验室研制推出的一套中文词法分析工具包
+'''
