@@ -36,6 +36,7 @@
       <workItem from="1668955087238" duration="148000" />
       <workItem from="1668955479380" duration="162000" />
       <workItem from="1668991799531" duration="2114000" />
+      <workItem from="1668994042996" duration="360000" />
     </task>
     <task id="LOCAL-00001" summary="8008">
       <created>1668992118738</created>
@@ -58,7 +59,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668993250885</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="8008">
+      <created>1668994078295</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1668994078295</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -94,6 +102,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="8008" />
