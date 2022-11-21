@@ -3,11 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="38593368-32ec-457a-86bb-eb30be6d08d1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/web/django_admin/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/example/web/django_admin/manage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/web/flask/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/example/web/flask/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/web/flask/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/example/web/flask/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/web/pyramid/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/example/web/pyramid/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/web/pyramid/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/example/web/pyramid/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/data-analysis/jieba/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/example/data-analysis/jieba/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/data-analysis/jieba/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/example/data-analysis/jieba/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/machine-learning/face-recognition/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/example/machine-learning/face-recognition/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/machine-learning/face-recognition/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/example/machine-learning/face-recognition/main.py" afterDir="false" />
     </list>
     <list id="ac901cf9-0a0d-4cfb-bda1-139579812aec" name="8008" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +41,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
-  <component name="RunManager" selected="Python.main (1)">
+  <component name="RunManager" selected="Python.main (2)">
     <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -57,6 +56,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/example/util/threading/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/example/data-analysis/jieba" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/example/data-analysis/jieba/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -111,6 +132,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main (2)" />
         <item itemvalue="Python.main (1)" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.manage" />
@@ -130,7 +152,7 @@
       <workItem from="1668955479380" duration="162000" />
       <workItem from="1668991799531" duration="2114000" />
       <workItem from="1668994042996" duration="3125000" />
-      <workItem from="1668999522493" duration="1985000" />
+      <workItem from="1668999522493" duration="2850000" />
     </task>
     <task id="LOCAL-00001" summary="8008">
       <created>1668992118738</created>
@@ -237,7 +259,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669000950703</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="8008">
+      <created>1669001703450</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1669001703450</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -282,5 +311,7 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/python$manage.coverage" NAME="manage Coverage Results" MODIFIED="1668999890753" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/example/web/django_admin" />
     <SUITE FILE_PATH="coverage/python$main.coverage" NAME="main Coverage Results" MODIFIED="1669001450609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/example/web/flask" />
+    <SUITE FILE_PATH="coverage/python$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1669001672418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/example/util/threading" />
+    <SUITE FILE_PATH="coverage/python$main__2_.coverage" NAME="main (2) Coverage Results" MODIFIED="1669002508893" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/example/data-analysis/jieba" />
   </component>
 </project>

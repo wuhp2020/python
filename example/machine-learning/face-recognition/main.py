@@ -1,13 +1,11 @@
 '''
- @ Libs   : python3.8 -m pip install opencv-python -i https://mirrors.aliyun.com/pypi/simple
- @ Libs   : python3.8 -m pip install dlib -i https://mirrors.aliyun.com/pypi/simple
- @ Libs   : python3.8 -m pip install face_recognition -i https://mirrors.aliyun.com/pypi/simple
- @ Libs   : python3.8 -m pip install imutils -i https://mirrors.aliyun.com/pypi/simple
- @ Libs   : python3.8 -m pip install pandas -i https://mirrors.aliyun.com/pypi/simple
- @ Libs   : python3.8 -m pip install scikit-image -i https://mirrors.aliyun.com/pypi/simple
- @ Author : wuheping
- @ Date   : 2022/1/28
- @ Desc   : 简单易用的 python 人脸识别库
+简单易用的 python 人脸识别库
+python3.8 -m pip install opencv-python -i https://mirrors.aliyun.com/pypi/simple
+python3.8 -m pip install dlib -i https://mirrors.aliyun.com/pypi/simple
+python3.8 -m pip install face_recognition -i https://mirrors.aliyun.com/pypi/simple
+python3.8 -m pip install imutils -i https://mirrors.aliyun.com/pypi/simple
+python3.8 -m pip install pandas -i https://mirrors.aliyun.com/pypi/simple
+python3.8 -m pip install scikit-image -i https://mirrors.aliyun.com/pypi/simple
 '''
 
 # 摄像头实时人脸识别
