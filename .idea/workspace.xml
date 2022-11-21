@@ -1,17 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="38593368-32ec-457a-86bb-eb30be6d08d1" name="Default Changelist" comment="" />
+    <list default="true" id="38593368-32ec-457a-86bb-eb30be6d08d1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/example/data-analysis/jieba/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/data-analysis/matplotlib/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/data-analysis/numpy/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/data-analysis/pandas/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/data-analysis/plotly/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/data-analysis/pyecharts/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/data-analysis/scipy/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/database/pymongo/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/database/pymysql/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/machine-learning/nltk/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/machine-learning/opencv/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/machine-learning/pytorch/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/network-robot/beautifulsoup4/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/network-robot/cola/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/network-robot/crawley/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/network-robot/lxml/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/network-robot/newspaper/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/network-robot/portia/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/network-robot/pyspider/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/network-robot/requests/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/network-robot/scrapy/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/text-graph/openpyxl/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/text-graph/pdfminer/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/text-graph/python-docx/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/text-graph/selenium/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/text-graph/smtplib/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/text-graph/xlsxwriter/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/web/django/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/web/flask/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/web/pyramid/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/web/tornado/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <list id="ac901cf9-0a0d-4cfb-bda1-139579812aec" name="8008" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2HocsZy0rr4LK5ArGOB0QN9nq3t" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -36,7 +80,7 @@
       <workItem from="1668955087238" duration="148000" />
       <workItem from="1668955479380" duration="162000" />
       <workItem from="1668991799531" duration="2114000" />
-      <workItem from="1668994042996" duration="664000" />
+      <workItem from="1668994042996" duration="1973000" />
     </task>
     <task id="LOCAL-00001" summary="8008">
       <created>1668992118738</created>
@@ -80,7 +124,49 @@
       <option name="project" value="LOCAL" />
       <updated>1668994707158</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="8008">
+      <created>1668994851584</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1668994851584</updated>
+    </task>
+    <task id="LOCAL-00008" summary="8008">
+      <created>1668994952281</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1668994952281</updated>
+    </task>
+    <task id="LOCAL-00009" summary="8008">
+      <created>1668994972399</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1668994972399</updated>
+    </task>
+    <task id="LOCAL-00010" summary="8008">
+      <created>1668995608688</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1668995608688</updated>
+    </task>
+    <task id="LOCAL-00011" summary="8008">
+      <created>1668995653808</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1668995653808</updated>
+    </task>
+    <task id="LOCAL-00012" summary="8008">
+      <created>1668995749632</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1668995749632</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
