@@ -1,9 +1,7 @@
 '''
- @ Libs   : python3.9 -m pip install EasyOCR -i https://mirrors.aliyun.com/pypi/simple
-            python3.9 -m pip install opencv-python==4.1.2.30 -i https://mirrors.aliyun.com/pypi/simple
- @ Author : wuheping
- @ Date   : 2022/1/29
- @ Desc   : 支持40多种语言的即用型 OCR
+支持40多种语言的即用型 OCR
+python3.8 -m pip install EasyOCR -i https://mirrors.aliyun.com/pypi/simple
+python3.8 -m pip install opencv-python==4.1.2.30 -i https://mirrors.aliyun.com/pypi/simple
 '''
 
 import easyocr
