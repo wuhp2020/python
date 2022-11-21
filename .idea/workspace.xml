@@ -2,38 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38593368-32ec-457a-86bb-eb30be6d08d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/example/data-analysis/jieba/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/data-analysis/matplotlib/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/data-analysis/numpy/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/data-analysis/pandas/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/data-analysis/plotly/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/data-analysis/pyecharts/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/data-analysis/scipy/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/database/pymongo/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/database/pymysql/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/machine-learning/nltk/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/machine-learning/opencv/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/machine-learning/pytorch/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/network-robot/beautifulsoup4/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/network-robot/cola/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/network-robot/crawley/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/network-robot/lxml/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/network-robot/newspaper/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/network-robot/portia/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/network-robot/pyspider/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/network-robot/requests/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/network-robot/scrapy/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/text-graph/openpyxl/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/text-graph/pdfminer/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/text-graph/python-docx/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/text-graph/selenium/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/text-graph/smtplib/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/text-graph/xlsxwriter/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/web/django/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/web/flask/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/web/pyramid/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/web/tornado/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/web/django/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/example/web/django/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/web/django/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/example/web/django/main.py" afterDir="false" />
     </list>
     <list id="ac901cf9-0a0d-4cfb-bda1-139579812aec" name="8008" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -68,6 +39,35 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
+  <component name="RunManager">
+    <configuration name="manage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/example/web/django_admin" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/example/web/django_admin/manage.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.manage" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -80,7 +80,8 @@
       <workItem from="1668955087238" duration="148000" />
       <workItem from="1668955479380" duration="162000" />
       <workItem from="1668991799531" duration="2114000" />
-      <workItem from="1668994042996" duration="1973000" />
+      <workItem from="1668994042996" duration="3125000" />
+      <workItem from="1668999522493" duration="360000" />
     </task>
     <task id="LOCAL-00001" summary="8008">
       <created>1668992118738</created>
@@ -166,7 +167,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668995749632</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="8008">
+      <created>1668996133216</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1668996133216</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
