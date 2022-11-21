@@ -3,8 +3,7 @@
 python3.8 -m pip install django -i https://mirrors.aliyun.com/pypi/simple
 python3 manage.py runserver
 '''
-#!/usr/bin/env python
-"""Django's command-line utility for administrative tasks."""
+
 import os
 import sys
 

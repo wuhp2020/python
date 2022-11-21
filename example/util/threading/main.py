@@ -1,8 +1,6 @@
 '''
- @ Libs   : python3.9 -m pip install threading -i https://mirrors.aliyun.com/pypi/simple
- @ Author : wuheping
- @ Date   : 2022/1/29
- @ Desc   : Python 标准库, 更高层的线程接口
+Python 标准库, 更高层的线程接口
+python3.8 -m pip install threading -i https://mirrors.aliyun.com/pypi/simple
 '''
 
 import threading
