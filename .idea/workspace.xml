@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38593368-32ec-457a-86bb-eb30be6d08d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/example/database/elasticsearch/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/database/elasticsearch/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/database/pymysql/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/example/database/pymysql/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/database/elasticsearch/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/example/database/elasticsearch/main.py" afterDir="false" />
     </list>
     <list id="ac901cf9-0a0d-4cfb-bda1-139579812aec" name="8008" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,7 +38,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
-  <component name="RunManager" selected="Python.main (2)">
+  <component name="RunManager" selected="Python.main (3)">
     <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -77,6 +75,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/example/data-analysis/jieba/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main (3)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/example/database/elasticsearch" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/example/database/elasticsearch/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -131,6 +151,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main (3)" />
         <item itemvalue="Python.main (2)" />
         <item itemvalue="Python.main (1)" />
         <item itemvalue="Python.main" />
@@ -151,7 +172,7 @@
       <workItem from="1668955479380" duration="162000" />
       <workItem from="1668991799531" duration="2114000" />
       <workItem from="1668994042996" duration="3125000" />
-      <workItem from="1668999522493" duration="8392000" />
+      <workItem from="1668999522493" duration="12426000" />
     </task>
     <task id="LOCAL-00001" summary="8008">
       <created>1668992118738</created>
@@ -293,7 +314,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669012910100</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="8008">
+      <created>1669014151386</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1669014151386</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -340,5 +368,6 @@
     <SUITE FILE_PATH="coverage/python$main.coverage" NAME="main Coverage Results" MODIFIED="1669001450609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/example/web/flask" />
     <SUITE FILE_PATH="coverage/python$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1669001672418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/example/util/threading" />
     <SUITE FILE_PATH="coverage/python$main__2_.coverage" NAME="main (2) Coverage Results" MODIFIED="1669002711689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/example/data-analysis/jieba" />
+    <SUITE FILE_PATH="coverage/python$main__3_.coverage" NAME="main (3) Coverage Results" MODIFIED="1669018701813" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/example/database/elasticsearch" />
   </component>
 </project>
