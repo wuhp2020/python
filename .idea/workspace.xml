@@ -3,41 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="38593368-32ec-457a-86bb-eb30be6d08d1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/machine-learning/easy-ocr/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/example/machine-learning/easy-ocr/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/machine-learning/nltk/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/example/machine-learning/nltk/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/machine-learning/nltk/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/example/machine-learning/nltk/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/machine-learning/opencv/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/example/machine-learning/opencv/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/machine-learning/opencv/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/example/machine-learning/opencv/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/network-robot/beautifulsoup4/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/example/network-robot/beautifulsoup4/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/network-robot/beautifulsoup4/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/example/network-robot/beautifulsoup4/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/network-robot/cola/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/example/network-robot/cola/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/network-robot/cola/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/example/network-robot/cola/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/network-robot/crawley/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/example/network-robot/crawley/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/network-robot/crawley/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/example/network-robot/crawley/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/network-robot/lxml/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/example/network-robot/lxml/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/network-robot/lxml/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/example/network-robot/lxml/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/network-robot/newspaper/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/example/network-robot/newspaper/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/network-robot/newspaper/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/example/network-robot/newspaper/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/network-robot/portia/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/example/network-robot/portia/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/network-robot/portia/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/example/network-robot/portia/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/network-robot/pyspider/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/example/network-robot/pyspider/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/network-robot/pyspider/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/example/network-robot/pyspider/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/network-robot/requests/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/example/network-robot/requests/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/network-robot/requests/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/example/network-robot/requests/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/network-robot/scrapy/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/example/network-robot/scrapy/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/network-robot/scrapy/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/example/network-robot/scrapy/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/text-graph/openpyxl/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/example/text-graph/openpyxl/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/text-graph/openpyxl/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/example/text-graph/openpyxl/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/text-graph/pdfminer/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/example/text-graph/pdfminer/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/text-graph/pdfminer/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/example/text-graph/pdfminer/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/text-graph/python-docx/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/example/text-graph/python-docx/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/text-graph/python-docx/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/example/text-graph/python-docx/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/text-graph/selenium/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/example/text-graph/selenium/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/text-graph/selenium/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/example/text-graph/selenium/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/text-graph/smtplib/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/example/text-graph/smtplib/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/text-graph/smtplib/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/example/text-graph/smtplib/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/text-graph/xlsxwriter/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/example/text-graph/xlsxwriter/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/text-graph/xlsxwriter/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/example/text-graph/xlsxwriter/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/data-analysis/matplotlib/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/example/data-analysis/matplotlib/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/data-analysis/numpy/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/example/data-analysis/numpy/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/data-analysis/pandas/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/example/data-analysis/pandas/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/data-analysis/plotly/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/example/data-analysis/plotly/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/data-analysis/pyecharts/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/example/data-analysis/pyecharts/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/data-analysis/scipy/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/example/data-analysis/scipy/main.py" afterDir="false" />
     </list>
     <list id="ac901cf9-0a0d-4cfb-bda1-139579812aec" name="8008" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -183,7 +154,7 @@
       <workItem from="1668955479380" duration="162000" />
       <workItem from="1668991799531" duration="2114000" />
       <workItem from="1668994042996" duration="3125000" />
-      <workItem from="1668999522493" duration="5596000" />
+      <workItem from="1668999522493" duration="7339000" />
     </task>
     <task id="LOCAL-00001" summary="8008">
       <created>1668992118738</created>
@@ -311,7 +282,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669003312237</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="8008">
+      <created>1669010657974</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1669010657974</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
