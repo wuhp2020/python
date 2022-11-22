@@ -116,10 +116,14 @@ def liveness_detection():
                 cv2.putText(frame, "MAR: {:.2f}".format(mar), (450, 30),
                             cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 0, 255), 2)
             elif len(rects) == 0:
+                blink_total = 0
+                mouth_total = 0
                 print("No face!")
                 cv2.putText(frame, "No face!", (0, 30),
                             cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 0, 255), 2)
             elif len(rects) > 1:
+                blink_total = 0
+                mouth_total = 0
                 print("More than one face!")
                 cv2.putText(frame, "More than one face!", (0, 30),
                             cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 0, 255), 2)
@@ -127,10 +131,10 @@ def liveness_detection():
             cv2.imshow("Frame", frame)
 
             if blink_total >= 1 or mouth_total >= 1:
-                blink_total = 0
-                mouth_total = 0
                 print("检测到眨眼睛")
                 print("检测到张嘴巴")
+
+
 
             # 按下q键退出循环（鼠标要点击一下图片使图片获得焦点）
             if cv2.waitKey(1) & 0xFF == ord('q'):

@@ -18,14 +18,16 @@ for hit in res['hits']['hits']:
 es.index(index="test", doc_type="doc", body={"name":"小红"})
 
 # 通过id修改字段
-es.update(index="test", doc_type="doc", id='TNM_mYQB9c0QNmdEbgBh', body={"doc":{"name":"张三"}})
+# es.update(index="test", doc_type="doc", id='TNM_mYQB9c0QNmdEbgBh', body={"doc":{"name":"张三"}})
 
 # 通过id查询数据
-doc = es.get(index="test", doc_type="doc", id='TNM_mYQB9c0QNmdEbgBh')
-print(doc)
+# doc = es.get(index="test", doc_type="doc", id='TNM_mYQB9c0QNmdEbgBh')
+# print('============ 通过id查询数据 ===========')
+# print(doc)
 
 # es中查询数据并回显
 result = es.search(index="test", doc_type="doc", body={"query": {"match_all": {}}}, filter_path=['hits.hits._source'])
+print('================= es中查询数据并回显 ================')
 print(result)
 
 # 删除指定数据

@@ -294,8 +294,6 @@ while cap.isOpened():
                             print('重复，未保存！')
 
                 else:
-                    blink_total = 0
-                    mouth_total = 0
                     # 播放无法识别音效
                     # playsound('D:/myworkspace/JupyterNotebook/People/music/sorry.wav')
                     print("Unknown person")
