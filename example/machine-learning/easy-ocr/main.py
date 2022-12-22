@@ -1,35 +1,39 @@
 '''
 支持40多种语言的即用型 OCR
-python3.8 -m pip install EasyOCR -i https://mirrors.aliyun.com/pypi/simple
-python3.8 -m pip install opencv-python -i https://mirrors.aliyun.com/pypi/simple
+python3.5 -m pip install EasyOCR==1.3.2 -i https://mirrors.aliyun.com/pypi/simple
+python3.5 -m pip install opencv-python==3.4.5.20 -i https://mirrors.aliyun.com/pypi/simple
 '''
 
-import easyocr
 import ssl
+import sys
 import os
-import re
+import easyocr
 
 ssl._create_default_https_context = ssl._create_unverified_context
 
-# need to run only once to load model into memory
-reader = easyocr.Reader(lang_list=['ch_sim','en'], model_storage_directory='./model')
+ocrreader = easyocr.Reader(['ch_sim', 'en'], model_storage_directory=r'/home/langdata')
 
-reg = '(13\d{9}|14[5|7]\d{8}|15\d{9}|166{\d{8}|17[3|6|7]{\d{8}|18\d{9})'
+threshold = 0.1  # 默认阈值
+for i in range(1, len(sys.argv)):  # 获取命令行参数：argv[0]表示可执行文件本身
+    imgfile = sys.argv[i]  # 待识别文件名
+    imgfilext = os.path.splitext(imgfile)[-1]  # 文件后缀名
+    if imgfilext.upper() not in ['.JPG', '.JPEG', '.PNG', '.BMP']:  # 转换为大写后再比对
+        print('\t', imgfile, ' 不是有效图片格式(jpg/jpeg/png/bmp)!')
+        continue
+    result = ocrreader.readtext(imgfile)
+    paper = ''
+    for w in result:
+        if w[2] > threshold:  # 设置一定的置信度阈值
+            paper = paper + w[1]
+    paper.replace(' ', '').replace('_', '').replace('^', '').replace('~', '').replace('`', '').replace('&',
+                                                                                                       '')  # 删除无效数据
 
-path = '/Users/mac/Desktop/data/'
-with open("/Users/mac/Desktop/data.txt", "w") as f:
-    for file in os.listdir(path):
-        if file.endswith('.jpg') or file.endswith('.jpeg'):
-            print('ok')
-        else:
-            break
-        print(path + file)
-        result = reader.readtext(path + file, detail=0)
-
-        for content in result:
-            f.write(content.replace('\r','').replace('\n','') + '\t')
-            print(content.replace('\r','').replace('\n',''), end='')
-            print('\t', end='')
-            if len(re.findall(reg, content)) > 0 and len(content) == 11:
-                print('\n')
-                f.write('\n')
+    # 记录当前文件的识别结果，保存为同名的txt文件
+    newfname = os.path.splitext(imgfile)[0] + '.txt'  # 与原文件同名的txt文件（包括目录）
+    # newfname=os.path.splitext(imgfile)[0].split('/')[-1].split('\\')[-1]+'.txt'#与原文件同名的txt文件（不包括目录，仅文件名）
+    try:
+        with open(newfname, 'w') as txtfile:
+            txtfile.write(paper)
+    except(Exception) as e:
+        print('\t', newfname, ' OCR Error: ', e)  # 输出异常错误
+        continue
