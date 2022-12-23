@@ -1,7 +1,8 @@
 '''
 支持40多种语言的即用型 OCR
-python3.5 -m pip install EasyOCR==1.3.2 -i https://mirrors.aliyun.com/pypi/simple
+python3.5 -m pip install opencv-python-headless==3.4.18.65 -i https://mirrors.aliyun.com/pypi/simple
 python3.5 -m pip install opencv-python==3.4.5.20 -i https://mirrors.aliyun.com/pypi/simple
+python3.5 -m pip install EasyOCR==1.3.2 -i https://mirrors.aliyun.com/pypi/simple
 '''
 
 import ssl
@@ -10,10 +11,10 @@ import os
 import easyocr
 
 ssl._create_default_https_context = ssl._create_unverified_context
+ocrreader = easyocr.Reader(['ch_sim', 'en'], model_storage_directory='./model')
+# 默认阈值
+threshold = 0.1
 
-ocrreader = easyocr.Reader(['ch_sim', 'en'], model_storage_directory=r'/home/langdata')
-
-threshold = 0.1  # 默认阈值
 for i in range(1, len(sys.argv)):  # 获取命令行参数：argv[0]表示可执行文件本身
     imgfile = sys.argv[i]  # 待识别文件名
     imgfilext = os.path.splitext(imgfile)[-1]  # 文件后缀名
