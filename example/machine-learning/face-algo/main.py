@@ -1,5 +1,4 @@
 '''
-简单易用的 python 人脸识别库
 python3.8 -m pip install numpy -i https://mirrors.aliyun.com/pypi/simple
 python3.8 -m pip install fastapi -i https://mirrors.aliyun.com/pypi/simple
 python3.8 -m pip install uvicorn -i https://mirrors.aliyun.com/pypi/simple
