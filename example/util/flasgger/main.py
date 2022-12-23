@@ -63,4 +63,4 @@ def index(language):
         features=random.sample(features, size)
     )
 
-app.run(debug=True)
+app.run(host='0.0.0.0', port=8008, threaded=True)
