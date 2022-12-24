@@ -3,7 +3,7 @@ python3.8 -m pip install fastapi -i https://mirrors.aliyun.com/pypi/simple
 python3.8 -m pip install uvicorn -i https://mirrors.aliyun.com/pypi/simple
 python3.8 -m pip install opencv-python-headless==3.4.18.65 -i https://mirrors.aliyun.com/pypi/simple
 python3.8 -m pip install opencv-python==3.4.18.65 -i https://mirrors.aliyun.com/pypi/simple
-python3.8 -m pip install EasyOCR==1.3.2 -i https://mirrors.aliyun.com/pypi/simple
+python3.8 -m pip install EasyOCR==1.3.0.1 -i https://mirrors.aliyun.com/pypi/simple
 '''
 
 import ssl
